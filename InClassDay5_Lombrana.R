@@ -65,8 +65,8 @@ raw_sum<- sum(fav_1, fav_2)
 round_sum<- round(raw_sum,2)
 # Create two new variables `round_1` and `round_2` that are your `fav_1` and 
 # `fav_2` variables rounded to 2 decimal places
-round_1<- round(fav_1)
-round_2<- round(fav_2)
+round_1<- round(fav_1,2)
+round_2<- round(fav_2,2)
 # Create a variable `sum_round` that is the sum of the rounded values
 sum_round<- sum(round_1, round_2)
 # Print out both variables and compare. Are they the same?
