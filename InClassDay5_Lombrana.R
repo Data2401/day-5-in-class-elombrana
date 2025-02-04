@@ -33,7 +33,9 @@ too_big<- area > 100
 # Display the variable `my_name`
 # Display the variable `area` 
 # Display the variable `too_big`
-
+print(my_name)
+print(area)
+print(too_big)
 
 ### PART TWO ###
 
